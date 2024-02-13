@@ -3653,3 +3653,286 @@ Out
 FileTable
 HeapTable
 
+Id1
+ExecutionStack
+int a;int b;int c;a=1;b=2;c=5;(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+int a;int b;int c;a=1;b=2;c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+int a;int b;int c;a=1;b=2;
+c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+int a;int b;int c;a=1;
+b=2;
+c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+int a;int b;int c;
+a=1;
+b=2;
+c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+int a;int b;
+int c;
+a=1;
+b=2;
+c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+int a;
+int b;
+int c;
+a=1;
+b=2;
+c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+int b;
+int c;
+a=1;
+b=2;
+c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+a=0
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+int c;
+a=1;
+b=2;
+c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+a=0
+b=0
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+a=1;
+b=2;
+c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+a=0
+b=0
+c=0
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+b=2;
+c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+a=1
+b=0
+c=0
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+c=5;
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+a=1
+b=2
+c=0
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+(switch (a*10
+(case (b*c) : Print(a);Print(b);)
+(case (10) : Print(100);Print(200);)
+(default : Print(300);));
+Print(300);
+SymbolsTable
+a=1
+b=2
+c=5
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+if a*10==b*c then Print(a);Print(b); else if a*10==10 then Print(100);Print(200); else Print(300);
+Print(300);
+SymbolsTable
+a=1
+b=2
+c=5
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+Print(a);Print(b);
+Print(300);
+SymbolsTable
+a=1
+b=2
+c=5
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+Print(a);
+Print(b);
+Print(300);
+SymbolsTable
+a=1
+b=2
+c=5
+Out
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+Print(b);
+Print(300);
+SymbolsTable
+a=1
+b=2
+c=5
+Out
+1
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+Print(300);
+SymbolsTable
+a=1
+b=2
+c=5
+Out
+1
+2
+FileTable
+HeapTable
+
+Id1
+ExecutionStack
+SymbolsTable
+a=1
+b=2
+c=5
+Out
+1
+2
+300
+FileTable
+HeapTable
+
